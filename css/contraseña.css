@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDF6EC;
+    color: #333;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #E2AA87;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #E2AA87;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card .form-label {
+    color: #333;
+}
+
+.card .form-control {
+    border-color: #E2AA87;
+}
+
+.card .btn-pink {
+    background-color: #E2AA87; 
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.card .btn-pink:hover {
+    background-color: #D1896F; 
+    color: #fff;
+}
+
+.card a {
+    color: #E2AA87;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 40px 0;
+}
+
+footer h5 {
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #E2AA87;
+}
+
+footer .social-links a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #FFF;
+}
+
+footer .social-links a:hover {
+    color: #E2AA87;
+}
+
+footer .list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+footer .list-unstyled li a {
+    color: #FFF;
+    transition: color 0.3s ease;
+}
+
+footer .list-unstyled li a:hover {
+    color: #E2AA87;
+}
+
+footer .text-center {
+    margin-top: 30px;
+}
+
+footer p {
+    color: #FFF;
+    margin: 0;
+}

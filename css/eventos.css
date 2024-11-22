@@ -1,0 +1,45 @@
+        
+        #calendar {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        
+        .calendar-and-reminders {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        
+        .reminders-alerts-section {
+            flex: 1;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            max-height: 200px;
+            overflow-y: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+
+        .reminders-alerts-section.expanded {
+            max-height: 600px; 
+        }
+
+        .reminders-alerts-section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        #reminders-alerts-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #reminders-alerts-list li {
+            background-color: #ffffff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+        }

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDF6EC;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #E2AA87;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #E2AA87;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: #333;
+}
+
+.about-section {
+    background-color: #E2AA87;
+    padding: 50px 0;
+    color: white;
+}
+
+.about-section h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+}
+
+.about-section .about-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.about-section .about-img:hover {
+    transform: scale(1.05);
+}
+
+.testimonials {
+    padding: 60px 0;
+    background-color: #FFF;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial .avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #E2AA87;
+    margin-bottom: 15px;
+}
+
+.testimonial h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial p {
+    color: #777;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 40px 0;
+}
+
+footer h5 {
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #E2AA87;
+}
+
+footer .social-links a {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #FFF;
+}
+
+footer .social-links a:hover {
+    color: #E2AA87;
+}
+
+footer .list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+footer .list-unstyled li a {
+    color: #FFF;
+    transition: color 0.3s ease;
+}
+
+footer .list-unstyled li a:hover {
+    color: #E2AA87;
+}
+
+footer .text-center {
+    margin-top: 30px;
+}
+
+footer p {
+    color: #FFF;
+    margin: 0;
+}

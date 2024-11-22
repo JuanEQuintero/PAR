@@ -1,6 +1,6 @@
 <?php
 include("conexion.php");
-include("registrochat.php");
+
 
 if (!empty($_POST["registrar"])) {
     if(!empty(($_POST["nombre"])) or !empty(($_POST["email"])) or !empty(($_POST["pet"])) or !empty(($_POST["password"])) or !empty(($_POST["confirm"]))){
